@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="changeImg.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+         <style>
+            
+			 
+			 * {
+				box-sizing: border-box;
+  
+				}
+
+				img {
+  border-radius: 50%;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+
+#body {
+   padding:10px;
+   padding-bottom:60px;   /* Height of the footer */
+}
+#footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;   /* Height of the footer */
+   background:#6cf;
+}
+
+#container {
+   height:100%;
+}
+
+         </style>
+    </head>
+    <body style="background-color: lightblue;">
+        <div class="navbar">
+             <div class="brand">
+                 <img src="images/logo.PNG"/>
+            </div>
+            <nav>
+                <ul>
+                   <div class="navbar">
+             <div class="brand">
+                 <img src="images/logo.PNG"/>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html" >Home</a></li>
+                    <li><a href = "contact.html" >Contact Us</a></li>
+                    <li><a href = "aboutus.html" >About Us </a></li>
+                    <li><a href = "Login.php" >login</a></li>
+                    <li><a href = "RegistrationP.php">register</a></li>
+                </ul>
+            </nav>
+             
+        </div>
+                </ul>
+            </nav>
+              
+             
+        </div>
+
+   
+        <div class="sec_a">
+        
+
+<div class="row">
+  <div class="column">
+    <img src="images/amos.jpg" alt="Amos" width="450" height="450" border-radius 50%>
+	<h2><center>Amos Sadiq</center></h2>
+	<p><center>Amos is our Digital Marketing Manager. His unique background in design offers out-of-the-box thinking for solving problems and finding unique solutions. </center></p>
+  </div>
+  <div class="column">
+    <img src="images/jaiv.jpg" alt="jaiv Shah" width="450" height="450">
+	<h2><center>Jaiv Shah</center></h2>
+	<p><center>Jaiv is the Software Engineer manager,and is very passionate about gaming and delivering the highest quality software experiences.</center></p>
+  </div>
+  <div class="column">
+    <img src="images/pushpinder.jpg" alt="Pushpinder Kaur" width="450" height="450">
+	<h2><center>Pushpinder Kaur</center></h2>
+	<p><center>Pushpinder is a web developer here at Bookdle as well as a student at Humber College, majoring in Computer Engineering.</center></p>
+  </div>
+</div>
+<footer>
+
+
+        <div class="footer">
+            <div class="copyright-container">
+                <div class="vert-align">
+                    <p class="headline">
+                    Copyright &copy; 2020 Jaivkumar Shah, Pushpinder kaur, Amos - All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+    </body>
+</html>

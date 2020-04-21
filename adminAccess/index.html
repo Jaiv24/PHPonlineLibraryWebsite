@@ -1,0 +1,155 @@
+<!DOCTYPE>
+<html>
+<title> Information page </title>
+<head>
+<script src="changeImg.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+
+</head>
+<style>
+p    {
+color: black;
+}
+body{
+background-color: powderblue;
+ text-align: center;
+}
+</style>
+<body >
+        <div class="navbar">
+             <div class="brand">
+                 <img src="images/logo.PNG"/>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html" >Home</a></li>
+                    <li><a href = "contact.html" >Contact Us</a></li>
+                    <li><a href = "aboutus.html" >About Us </a></li>
+                    <li><a href = "Login.php" >login</a></li>
+                    <li><a href = "RegistrationP.php">register</a></li>
+                </ul>
+            </nav>
+             
+        </div>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+<h1 style="color:darkblue;"> Bookdale </h1>
+<br>
+<br>
+<br>
+<p id="p1">Welcome to "Bookdale" , the most trusted brand when it comes to <br>
+renting and purchasing e-books at an affordable price.<br>
+The goal of our company is to give you the very best from the market<br>
+with the focus on dependability, customer service and uniqueness.<br>
+We believe reading empowers people, offering them empathy to live <br> 
+for a moment in someone else’s shoes, offers them education, a critical asset to <br>  
+improving one’s life, and offers an occasional escape to fantastic worlds inhabited<br>
+by interesting characters. Yes, we save millions of books every year from being <br> 
+destroyed, but our mission goes beyond the environment. We save these books <br> 
+and make them accessible to readers for the chance to shape another mind,<br> 
+ share another story, and teach a bit of wisdom.<br> 
+</p>
+<br> 
+<br> 
+<p  id ="p2">
+ Bookdale is developed by the students of computer engineering from humber college.<br>
+ Those students are Amos Sadiq, JaivKumar Shah and Pushpinder Kaur.<br>
+This website is a result of the joint teamwork where everyone worked hard.<br>
+When first started, the passion , creativity and  hardwork of those students<br>
+drove them to come up with this website that provided the best of all to its users.<br>
+All their hardwork and inspiration turned into a blomming website. They say that,"We are <br>
+honoured to the part of this online world and would shortly come up with new ideas for Bookdale"<br>
+<br> 
+<br>
+</p>
+
+<p id="p3">
+We ,the team, hope that you all enjoy Bookdale. If you have any questions,<br>
+comments or feedback go to contact us.<a href="contact.html" id="onClick"> Contact us</a>. <br>
+Please do not hesitate to contact us.<br>
+Always at your service<br>
+<br>
+<br>
+</p>
+<p id ="p4">
+Sincerely,<br>
+Team Bookdale.
+</p>
+
+<script type ="text/javascript">
+ document.getElementById("onClick").addEventListener("click", clicked);
+    function clicked()
+    {
+   		 alert("Here's the link to contact us page");
+    }	
+	
+document.getElementById("p1").addEventListener("mouseover", mouseOver);
+document.getElementById("p1").addEventListener("mouseout", mouseOut);
+
+function mouseOver() {
+  document.getElementById("p1").style.color = "red";
+  document.getElementById("p1").style.fontWeight = "bold";
+}
+
+function mouseOut() {
+  document.getElementById("p1").style.color = "black";
+  document.getElementById("p1").style.fontWeight ="normal";
+}
+document.getElementById("p2").addEventListener("mouseover", MouseV);
+document.getElementById("p2").addEventListener("mouseout", MouseT);
+
+function MouseV() {
+  document.getElementById("p2").style.color = "blue";
+  document.getElementById("p2").style.fontWeight = "bold";
+}
+
+function MouseT() {
+  document.getElementById("p2").style.color = "black";
+  document.getElementById("p2").style.fontWeight ="normal";
+}
+document.getElementById("p3").addEventListener("mouseover", mOver);
+document.getElementById("p3").addEventListener("mouseout", mOut);
+
+function mOver() {
+  document.getElementById("p3").style.color = "green";
+  document.getElementById("p3").style.fontWeight = "bold";
+}
+
+function mOut() {
+  document.getElementById("p3").style.color = "black";
+  document.getElementById("p3").style.fontWeight ="normal";
+}
+document.getElementById("p4").addEventListener("mouseover", mOr);
+document.getElementById("p4").addEventListener("mouseout", mOt);
+
+function mOr() {
+  document.getElementById("p4").style.color = "orange";
+  document.getElementById("p4").style.fontWeight = "bold";
+}
+
+function mOt() {
+  document.getElementById("p4").style.color = "black";
+  document.getElementById("p4").style.fontWeight ="normal";
+}
+
+</script>
+</body>
+<br>
+<br>
+<div class="footer">
+  <div class="copyright-container">
+      <div class="vert-align">
+          <p class="headline">
+          Copyright &copy; 2020 Jaivkumar Shah, Pushpinder kaur, Amos - All Rights Reserved.</p>
+      </div>
+  </div>
+</div>
+</html>
