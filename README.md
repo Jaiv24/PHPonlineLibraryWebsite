@@ -1,2 +1,3 @@
 # PHPonlineLibraryWebsite
-Project Of CENG256
+This project is an online bookStore collection.
+ - It has Apache MySQL Database.
